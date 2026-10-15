@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "sequence": 3,
-  "publishedAt": "2026-10-15T18:58:32Z",
-  "expiresAt": "2026-11-14T18:58:32Z",
+  "sequence": 4,
+  "publishedAt": "2026-10-15T21:38:34Z",
+  "expiresAt": "2026-11-14T21:38:34Z",
   "entries": [
     {
       "id": "cafe.nero.plugin.voice",
@@ -17,7 +17,7 @@
       "publisher": {
         "name": "NeroNook \u00b7 Michael Curtis",
         "teamID": "2GFVXB3249",
-        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+        "website": "https://neronook.ailuxis.com/guide.html"
       },
       "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
@@ -47,7 +47,7 @@
       "publisher": {
         "name": "NeroNook \u00b7 Michael Curtis",
         "teamID": "2GFVXB3249",
-        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+        "website": "https://neronook.ailuxis.com/guide.html"
       },
       "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
@@ -76,7 +76,7 @@
       "publisher": {
         "name": "NeroNook \u00b7 Michael Curtis",
         "teamID": "2GFVXB3249",
-        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+        "website": "https://neronook.ailuxis.com/guide.html"
       },
       "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
@@ -91,7 +91,7 @@
         {
           "name": "Fuego",
           "detail": "Your configured Fuego service and worker.",
-          "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+          "website": "https://neronook.ailuxis.com/guide.html"
         }
       ],
       "releaseNotes": "Public release qualification is ongoing. This listing describes the current developer preview.",
@@ -111,7 +111,7 @@
       "publisher": {
         "name": "NeroNook \u00b7 Michael Curtis",
         "teamID": "2GFVXB3249",
-        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+        "website": "https://neronook.ailuxis.com/guide.html"
       },
       "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
@@ -140,7 +140,7 @@
       "publisher": {
         "name": "NeroNook \u00b7 Michael Curtis",
         "teamID": "2GFVXB3249",
-        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+        "website": "https://neronook.ailuxis.com/guide.html"
       },
       "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
@@ -175,7 +175,7 @@
       "publisher": {
         "name": "NeroNook \u00b7 Michael Curtis",
         "teamID": "2GFVXB3249",
-        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+        "website": "https://neronook.ailuxis.com/guide.html"
       },
       "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
@@ -191,7 +191,7 @@
         {
           "name": "OpenLogi",
           "detail": "A compatible installed OpenLogi app and agent are required.",
-          "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+          "website": "https://neronook.ailuxis.com/guide.html"
         }
       ],
       "releaseNotes": "Public release qualification is ongoing. This listing describes the current developer preview.",
@@ -211,7 +211,7 @@
       "publisher": {
         "name": "NeroNook \u00b7 Michael Curtis",
         "teamID": "2GFVXB3249",
-        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+        "website": "https://neronook.ailuxis.com/guide.html"
       },
       "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
@@ -240,7 +240,7 @@
       "publisher": {
         "name": "NeroNook \u00b7 Michael Curtis",
         "teamID": "2GFVXB3249",
-        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+        "website": "https://neronook.ailuxis.com/guide.html"
       },
       "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
@@ -270,7 +270,7 @@
       "publisher": {
         "name": "NeroNook \u00b7 Michael Curtis",
         "teamID": "2GFVXB3249",
-        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+        "website": "https://neronook.ailuxis.com/guide.html"
       },
       "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
@@ -305,7 +305,7 @@
       "publisher": {
         "name": "NeroNook \u00b7 Michael Curtis",
         "teamID": "2GFVXB3249",
-        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+        "website": "https://neronook.ailuxis.com/guide.html"
       },
       "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
@@ -333,7 +333,7 @@
       "publisher": {
         "name": "NeroNook \u00b7 Michael Curtis",
         "teamID": "2GFVXB3249",
-        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+        "website": "https://neronook.ailuxis.com/guide.html"
       },
       "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
@@ -362,7 +362,7 @@
       "publisher": {
         "name": "NeroNook \u00b7 Michael Curtis",
         "teamID": "2GFVXB3249",
-        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+        "website": "https://neronook.ailuxis.com/guide.html"
       },
       "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
@@ -395,7 +395,7 @@
       "publisher": {
         "name": "NeroNook \u00b7 Michael Curtis",
         "teamID": null,
-        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+        "website": "https://neronook.ailuxis.com/guide.html"
       },
       "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",

@@ -12,7 +12,7 @@ import shutil
 
 HERE=Path(__file__).resolve().parent
 ROOT=HERE.parents[1]
-ORIGIN='https://neronook.mdcurtis.chatgpt.site/'
+ORIGIN='https://neronook.ailuxis.com/'
 TEAM='2GFVXB3249'
 
 
@@ -38,13 +38,13 @@ def main(sequence):
                 'A separate chat experience for asking questions, inspecting selected context and proposing actions. Account connections and cloud reasoning belong to this plugin. Proposals and execution remain distinct.',version='0.3.4',capabilities=['Plugin-owned account connection','User-selected context and reviewed actions']),
         listing('cloud.fuego.nook-agent','Fuego Agent','flame.fill','DD7547','Work','Hand off a job. Follow its progress. Keep the result close.',
                 'Connect your own Fuego account, review a job handoff and follow progress and cancellation in the Nook. Workflows can wait for jobs to finish. Requires access to a configured Fuego service and worker; NeroNook does not bundle the Fuego runtime.',version='0.4.0',capabilities=['Plugin-owned Fuego sign-in','Reviewed remote jobs, progress, cancellation and results'],
-                dependencies=[dict(name='Fuego',detail='Your configured Fuego service and worker.',website='https://neronook.mdcurtis.chatgpt.site/guide.html')]),
+                dependencies=[dict(name='Fuego',detail='Your configured Fuego service and worker.',website=ORIGIN+'guide.html')]),
         listing('cafe.nero.plugin.bambu','Bambu Monitor','printer.fill','7C9C69','Devices','Your print, filament and toolheads, within reach.',
                 'The public Bambu module is an independent integration for supported printers. Device access, telemetry and camera availability depend on your printer configuration. Private experimental variants are not part of this library.',version='1.6.1',capabilities=['Local printer connection with plugin-owned credentials','Printer status and configuration-dependent views']),
         listing('cafe.nero.plugin.streamdeck','Stream Deck','keyboard.fill','887AA9','Devices','Put your Nook workflows on the keys you already use.',
                 'Connects through the Elgato Stream Deck application and a companion plugin. Launch reviewed workflows and follow their status on the keys, with a paired Stop action. This integration does not replace Elgato’s application.',version='0.3.0',capabilities=['Local companion connection','Granted workflow launch, live status and cancellation'],dependencies=[dict(name='Elgato Stream Deck',detail='The native Stream Deck app and NeroNook companion are required.',website='https://www.elgato.com/stream-deck')]),
         listing('cafe.nero.plugin.logitech','Logitech','computermouse.fill','7F8E69','Devices','A useful home for your mouse, keyboard and desk workflows.',
-                'Connects to OpenLogi’s public interface for supported Logitech hardware. Mouse and keyboard views stay separate from setup. Optional keyboard events can participate in reviewed workflows.',version='0.5.1',capabilities=['OpenLogi public API connection','Supported mouse and keyboard controls','Opt-in keyboard connection and battery events'],dependencies=[dict(name='OpenLogi',detail='A compatible installed OpenLogi app and agent are required.',website='https://neronook.mdcurtis.chatgpt.site/guide.html')]),
+                'Connects to OpenLogi’s public interface for supported Logitech hardware. Mouse and keyboard views stay separate from setup. Optional keyboard events can participate in reviewed workflows.',version='0.5.1',capabilities=['OpenLogi public API connection','Supported mouse and keyboard controls','Opt-in keyboard connection and battery events'],dependencies=[dict(name='OpenLogi',detail='A compatible installed OpenLogi app and agent are required.',website=ORIGIN+'guide.html')]),
         listing('cafe.nero.plugin.ark','Odyssey Ark','display','6498A6','Devices','Samsung monitor controls that belong right on your desk.',
                 'Independent local-network controls for supported Samsung Odyssey Ark monitors. Pairing, certificate trust and source mappings belong to the plugin. Optional Logitech source following needs both independent modules and explicit configuration.',version='0.4.0',capabilities=['Local monitor pairing and plugin-owned credentials','Supported monitor volume and source controls']),
         listing('cafe.nero.plugin.weather','Weather Observatory','cloud.sun.fill','BE984F','Home','Forecasts, wind, temperature and a wider view of the weather.',
