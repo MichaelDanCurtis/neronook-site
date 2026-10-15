@@ -1,6 +1,6 @@
 # NeroNook website and catalog
 
-Buildless HTML/CSS/JS, original SVG icons and an interactive illustration with synthetic content. No runtime dependency installation is needed. The site has its own persisted Sites project in `.openai/hosting.json`; never register a duplicate project or put a source credential in this directory.
+Buildless HTML/CSS/JS, original SVG icons and an interactive illustration with synthetic content. No runtime dependency installation is needed. Production is https://neronook.ailuxis.com/, hosted in the independent Vercel `neronook` project. Cloudflare is authoritative DNS; the `neronook` CNAME uses the target Vercel reports, with DNS-only routing. The existing Sites identity in `.openai/hosting.json` is retained as the historical preview; never register a duplicate Site or put credentials in this directory. Source is mirrored to the private `MichaelDanCurtis/neronook-site` repository.
 
 ## Prepare a release
 
@@ -9,7 +9,7 @@ Buildless HTML/CSS/JS, original SVG icons and an interactive illustration with s
 3. Build the stable `scripts/catalog-sign.swift` helper under `build/catalog-tools`, sign it with the selected publisher identity, and use `initialize` only for first setup, then `public-key` to inspect the public half. Missing or inaccessible keys are not replaced by signing. Never regenerate an existing trust key to get past an error. The private key is stored in Keychain and used only in the helper's memory.
 4. Run `build/catalog-tools/catalog-sign sign sites/neronook/catalog-source.json sites/neronook/dist/catalog.json`. Confirm the emitted public key matches the app and `dist/site.js`.
 5. Copy the exact final notarized host archive and MIT creator kit to `dist/downloads/`. Verify hashes, links, browser behavior and the native library against the published origin. No test records, household state, account files or private plugin binaries belong here.
-6. Use the Sites source helper from this directory to push/package the exact source. Keep the short-lived source credential in memory/stdin only. Publish with the tool appropriate to the confirmed audience. A private site cannot serve anonymous native catalog downloads; audience changes require the owner's explicit choice.
+6. Commit only this website checkout and push `main` to its `github` remote. Vercel builds with `node check-site.mjs` and serves only `dist/`; source, signing helpers and release receipts must not be served. Inspect the resulting production deployment, then verify HTTPS, the signed catalog and exact download hashes at the custom domain. Public beta access was explicitly approved by the owner on October 15. The historical Sites preview remains separate.
 
 ## Local preview
 
