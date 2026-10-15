@@ -1,0 +1,22 @@
+NeroNook beta feedback
+
+App version:
+Plugin name and version (if relevant):
+Mac chip/model:
+macOS version:
+
+What were you trying to do?
+
+What did you expect?
+
+What happened? Can you repeat it?
+
+Did it recover after closing/reopening the affected plugin?
+
+Optional checks: install, restart, sleep/wake, multiple displays, dictation,
+long meeting, plugin update, cancellation, restore previous version.
+
+Use sample content for screenshots. Do not include access codes, API keys,
+account tokens, private transcripts, recordings or household details.
+
+This file stays local. Share it manually with the person who provided the beta.

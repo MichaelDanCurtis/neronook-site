@@ -1,0 +1,416 @@
+{
+  "schemaVersion": 1,
+  "sequence": 2,
+  "publishedAt": "2026-10-15T18:45:03Z",
+  "expiresAt": "2026-11-14T18:45:03Z",
+  "entries": [
+    {
+      "id": "cafe.nero.plugin.voice",
+      "name": "Nero Voice",
+      "version": "0.16.3",
+      "summary": "Dictation, meeting transcripts and a place to return to the conversation.",
+      "detail": "Hold your chosen shortcut, speak and release to paste into the active app. The meeting workspace brings recordings, transcripts, cited questions and notes together. Apple Speech remains the default where appropriate; separately prepared local MLX models are optional.",
+      "category": "Work",
+      "symbol": "waveform",
+      "tint": "A387C5",
+      "kind": "native",
+      "publisher": {
+        "name": "NeroNook \u00b7 Michael Curtis",
+        "teamID": "2GFVXB3249",
+        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+      },
+      "minimumHost": "0.29.0",
+      "minimumOS": "14.0.0",
+      "architectures": [
+        "arm64"
+      ],
+      "capabilities": [
+        "Microphone and optional meeting audio capture",
+        "Accessibility for insertion into the active application",
+        "Plugin-owned recordings, transcripts and settings"
+      ],
+      "dependencies": [],
+      "releaseNotes": "Public release qualification is ongoing. This listing describes the current developer preview.",
+      "availability": "preview",
+      "download": null
+    },
+    {
+      "id": "cafe.nero.plugin.agent",
+      "name": "Nero Agent",
+      "version": "0.3.4",
+      "summary": "A persistent conversation, with context you choose to share.",
+      "detail": "A separate chat experience for asking questions, inspecting selected context and proposing actions. Account connections and cloud reasoning belong to this plugin. Proposals and execution remain distinct.",
+      "category": "Work",
+      "symbol": "bubble.left.and.bubble.right.fill",
+      "tint": "D39153",
+      "kind": "native",
+      "publisher": {
+        "name": "NeroNook \u00b7 Michael Curtis",
+        "teamID": "2GFVXB3249",
+        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+      },
+      "minimumHost": "0.29.0",
+      "minimumOS": "14.0.0",
+      "architectures": [
+        "arm64"
+      ],
+      "capabilities": [
+        "Plugin-owned account connection",
+        "User-selected context and reviewed actions"
+      ],
+      "dependencies": [],
+      "releaseNotes": "Public release qualification is ongoing. This listing describes the current developer preview.",
+      "availability": "preview",
+      "download": null
+    },
+    {
+      "id": "cloud.fuego.nook-agent",
+      "name": "Fuego Agent",
+      "version": "0.4.0",
+      "summary": "Hand off a job. Follow its progress. Keep the result close.",
+      "detail": "Connect your own Fuego account, review a job handoff and follow progress and cancellation in the Nook. Workflows can wait for jobs to finish. Requires access to a configured Fuego service and worker; NeroNook does not bundle the Fuego runtime.",
+      "category": "Work",
+      "symbol": "flame.fill",
+      "tint": "DD7547",
+      "kind": "native",
+      "publisher": {
+        "name": "NeroNook \u00b7 Michael Curtis",
+        "teamID": "2GFVXB3249",
+        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+      },
+      "minimumHost": "0.29.0",
+      "minimumOS": "14.0.0",
+      "architectures": [
+        "arm64"
+      ],
+      "capabilities": [
+        "Plugin-owned Fuego sign-in",
+        "Reviewed remote jobs, progress, cancellation and results"
+      ],
+      "dependencies": [
+        {
+          "name": "Fuego",
+          "detail": "Your configured Fuego service and worker.",
+          "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+        }
+      ],
+      "releaseNotes": "Public release qualification is ongoing. This listing describes the current developer preview.",
+      "availability": "preview",
+      "download": null
+    },
+    {
+      "id": "cafe.nero.plugin.bambu",
+      "name": "Bambu Monitor",
+      "version": "1.6.1",
+      "summary": "Your print, filament and toolheads, within reach.",
+      "detail": "The public Bambu module is an independent integration for supported printers. Device access, telemetry and camera availability depend on your printer configuration. Private experimental variants are not part of this library.",
+      "category": "Devices",
+      "symbol": "printer.fill",
+      "tint": "7C9C69",
+      "kind": "native",
+      "publisher": {
+        "name": "NeroNook \u00b7 Michael Curtis",
+        "teamID": "2GFVXB3249",
+        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+      },
+      "minimumHost": "0.29.0",
+      "minimumOS": "14.0.0",
+      "architectures": [
+        "arm64"
+      ],
+      "capabilities": [
+        "Local printer connection with plugin-owned credentials",
+        "Printer status and configuration-dependent views"
+      ],
+      "dependencies": [],
+      "releaseNotes": "Public release qualification is ongoing. This listing describes the current developer preview.",
+      "availability": "preview",
+      "download": null
+    },
+    {
+      "id": "cafe.nero.plugin.streamdeck",
+      "name": "Stream Deck",
+      "version": "0.3.0",
+      "summary": "Put your Nook workflows on the keys you already use.",
+      "detail": "Connects through the Elgato Stream Deck application and a companion plugin. Launch reviewed workflows and follow their status on the keys, with a paired Stop action. This integration does not replace Elgato\u2019s application.",
+      "category": "Devices",
+      "symbol": "keyboard.fill",
+      "tint": "887AA9",
+      "kind": "native",
+      "publisher": {
+        "name": "NeroNook \u00b7 Michael Curtis",
+        "teamID": "2GFVXB3249",
+        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+      },
+      "minimumHost": "0.29.0",
+      "minimumOS": "14.0.0",
+      "architectures": [
+        "arm64"
+      ],
+      "capabilities": [
+        "Local companion connection",
+        "Granted workflow launch, live status and cancellation"
+      ],
+      "dependencies": [
+        {
+          "name": "Elgato Stream Deck",
+          "detail": "The native Stream Deck app and NeroNook companion are required.",
+          "website": "https://www.elgato.com/stream-deck"
+        }
+      ],
+      "releaseNotes": "Public release qualification is ongoing. This listing describes the current developer preview.",
+      "availability": "preview",
+      "download": null
+    },
+    {
+      "id": "cafe.nero.plugin.logitech",
+      "name": "Logitech",
+      "version": "0.5.1",
+      "summary": "A useful home for your mouse, keyboard and desk workflows.",
+      "detail": "Connects to OpenLogi\u2019s public interface for supported Logitech hardware. Mouse and keyboard views stay separate from setup. Optional keyboard events can participate in reviewed workflows.",
+      "category": "Devices",
+      "symbol": "computermouse.fill",
+      "tint": "7F8E69",
+      "kind": "native",
+      "publisher": {
+        "name": "NeroNook \u00b7 Michael Curtis",
+        "teamID": "2GFVXB3249",
+        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+      },
+      "minimumHost": "0.29.0",
+      "minimumOS": "14.0.0",
+      "architectures": [
+        "arm64"
+      ],
+      "capabilities": [
+        "OpenLogi public API connection",
+        "Supported mouse and keyboard controls",
+        "Opt-in keyboard connection and battery events"
+      ],
+      "dependencies": [
+        {
+          "name": "OpenLogi",
+          "detail": "A compatible installed OpenLogi app and agent are required.",
+          "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+        }
+      ],
+      "releaseNotes": "Public release qualification is ongoing. This listing describes the current developer preview.",
+      "availability": "preview",
+      "download": null
+    },
+    {
+      "id": "cafe.nero.plugin.ark",
+      "name": "Odyssey Ark",
+      "version": "0.4.0",
+      "summary": "Samsung monitor controls that belong right on your desk.",
+      "detail": "Independent local-network controls for supported Samsung Odyssey Ark monitors. Pairing, certificate trust and source mappings belong to the plugin. Optional Logitech source following needs both independent modules and explicit configuration.",
+      "category": "Devices",
+      "symbol": "display",
+      "tint": "6498A6",
+      "kind": "native",
+      "publisher": {
+        "name": "NeroNook \u00b7 Michael Curtis",
+        "teamID": "2GFVXB3249",
+        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+      },
+      "minimumHost": "0.29.0",
+      "minimumOS": "14.0.0",
+      "architectures": [
+        "arm64"
+      ],
+      "capabilities": [
+        "Local monitor pairing and plugin-owned credentials",
+        "Supported monitor volume and source controls"
+      ],
+      "dependencies": [],
+      "releaseNotes": "Public release qualification is ongoing. This listing describes the current developer preview.",
+      "availability": "preview",
+      "download": null
+    },
+    {
+      "id": "cafe.nero.plugin.weather",
+      "name": "Weather Observatory",
+      "version": "0.4.0",
+      "summary": "Forecasts, wind, temperature and a wider view of the weather.",
+      "detail": "An independent weather module with a location-aware forecast and selectable Earth and optional Windy map views. No separate desktop app is required. Windy requires your own API entitlement; Earth\u2019s viewer availability depends on its service.",
+      "category": "Home",
+      "symbol": "cloud.sun.fill",
+      "tint": "BE984F",
+      "kind": "native",
+      "publisher": {
+        "name": "NeroNook \u00b7 Michael Curtis",
+        "teamID": "2GFVXB3249",
+        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+      },
+      "minimumHost": "0.29.0",
+      "minimumOS": "14.0.0",
+      "architectures": [
+        "arm64"
+      ],
+      "capabilities": [
+        "Optional location permission or manual place selection",
+        "Weather-provider network requests",
+        "Optional plugin-owned Windy API key"
+      ],
+      "dependencies": [],
+      "releaseNotes": "Public release qualification is ongoing. This listing describes the current developer preview.",
+      "availability": "preview",
+      "download": null
+    },
+    {
+      "id": "cafe.nero.plugin.homeassistant",
+      "name": "Home Assistant",
+      "version": "0.2.0",
+      "summary": "Favorites, rooms and scenes. Control what you choose.",
+      "detail": "An independent connection to your Home Assistant server. Start read only, then individually allow lights, switches and scenes. Native and in-Nook controls review their targets; locks, doors, climate and security are read only in this release. No separate desktop application is required.",
+      "category": "Home",
+      "symbol": "house.fill",
+      "tint": "63A9B7",
+      "kind": "native",
+      "publisher": {
+        "name": "NeroNook \u00b7 Michael Curtis",
+        "teamID": "2GFVXB3249",
+        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+      },
+      "minimumHost": "0.29.0",
+      "minimumOS": "14.0.0",
+      "architectures": [
+        "arm64"
+      ],
+      "capabilities": [
+        "Plugin-owned Home Assistant token",
+        "Live home inventory and individually allowed device controls"
+      ],
+      "dependencies": [
+        {
+          "name": "Home Assistant server",
+          "detail": "Your own running server and a token you provide in the plugin.",
+          "website": "https://www.home-assistant.io/"
+        }
+      ],
+      "releaseNotes": "Public release qualification is ongoing. This listing describes the current developer preview.",
+      "availability": "preview",
+      "download": null
+    },
+    {
+      "id": "cafe.nero.plugin.applehome",
+      "name": "Apple Home",
+      "version": "0.2.1",
+      "summary": "Keep your selected home and its accessories close.",
+      "detail": "A separate Apple Home integration. Requires a compatible Apple Home setup and the permissions supported by the plugin. Account and accessory availability are checked independently of NeroNook.",
+      "category": "Home",
+      "symbol": "house.and.flag.fill",
+      "tint": "BD9369",
+      "kind": "native",
+      "publisher": {
+        "name": "NeroNook \u00b7 Michael Curtis",
+        "teamID": "2GFVXB3249",
+        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+      },
+      "minimumHost": "0.29.0",
+      "minimumOS": "14.0.0",
+      "architectures": [
+        "arm64"
+      ],
+      "capabilities": [
+        "Apple Home access for your selected home"
+      ],
+      "dependencies": [],
+      "releaseNotes": "Public release qualification is ongoing. This listing describes the current developer preview.",
+      "availability": "preview",
+      "download": null
+    },
+    {
+      "id": "cafe.nero.plugin.google",
+      "name": "Google",
+      "version": "0.1.4",
+      "summary": "Calendar, inbox, tasks and files, with room to work.",
+      "detail": "A plugin-owned Google account connection with separate views for calendar events, mail, tasks and files. OAuth registration, consent and account coverage remain part of its independent release qualification.",
+      "category": "Work",
+      "symbol": "calendar",
+      "tint": "6687BB",
+      "kind": "native",
+      "publisher": {
+        "name": "NeroNook \u00b7 Michael Curtis",
+        "teamID": "2GFVXB3249",
+        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+      },
+      "minimumHost": "0.29.0",
+      "minimumOS": "14.0.0",
+      "architectures": [
+        "arm64"
+      ],
+      "capabilities": [
+        "User-approved Google OAuth scopes",
+        "Calendar, inbox, task and file views"
+      ],
+      "dependencies": [],
+      "releaseNotes": "Public release qualification is ongoing. This listing describes the current developer preview.",
+      "availability": "preview",
+      "download": null
+    },
+    {
+      "id": "cafe.nero.creator.betademo",
+      "name": "Creator Beta Demo",
+      "version": "0.1.3",
+      "summary": "An independent local demo module built with the NeroNook creator kit.",
+      "detail": "A synthetic native creator example: a shared counter, inline review, a custom view and an independent window. It does not connect to accounts or devices. Useful for trying installation and learning the SDK.",
+      "category": "Getting started",
+      "symbol": "square.grid.2x2",
+      "tint": "8D9779",
+      "kind": "native",
+      "publisher": {
+        "name": "NeroNook \u00b7 Michael Curtis",
+        "teamID": "2GFVXB3249",
+        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+      },
+      "minimumHost": "0.29.0",
+      "minimumOS": "14.0.0",
+      "architectures": [
+        "arm64"
+      ],
+      "capabilities": [
+        "Shows local demo state and changes a demo counter",
+        "Publishes read-only demo status through the shared SDK"
+      ],
+      "dependencies": [],
+      "releaseNotes": "First curated library release. Install and update only after reviewing the package.",
+      "availability": "available",
+      "download": {
+        "path": "downloads/Creator-0.1.3.zip",
+        "sha256": "23b608b3958bb9b7eff843cb6120afcd5030608abb8eeef2759a0bc199c43dc8",
+        "bytes": 770949
+      }
+    },
+    {
+      "id": "cafe.nero.hello",
+      "name": "Hello Nook",
+      "version": "1.0.0",
+      "summary": "Your first module: a greeting and counter shared across monitors.",
+      "detail": "A small, local greeting and counter in the isolated module runner. An easy first install and an editable starting point for lightweight module authors.",
+      "category": "Getting started",
+      "symbol": "hand.wave.fill",
+      "tint": "BD875A",
+      "kind": "lightweight",
+      "publisher": {
+        "name": "NeroNook \u00b7 Michael Curtis",
+        "teamID": null,
+        "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
+      },
+      "minimumHost": "0.29.0",
+      "minimumOS": "14.0.0",
+      "architectures": [
+        "arm64"
+      ],
+      "capabilities": [],
+      "dependencies": [],
+      "releaseNotes": "First curated library release. Install and update only after reviewing the package.",
+      "availability": "available",
+      "download": {
+        "path": "downloads/HelloNook.neronookmodule",
+        "sha256": "071f844a01a5b3b28b27367f3557f3e567d822898722f40cd1e63132b7f7a46d",
+        "bytes": 2065
+      }
+    }
+  ]
+}

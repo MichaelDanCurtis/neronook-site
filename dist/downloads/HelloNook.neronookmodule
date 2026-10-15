@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "hostAPIVersion": 1,
+  "id": "cafe.nero.hello",
+  "name": "Hello Nook",
+  "version": "1.0.0",
+  "author": "NeroNook",
+  "summary": "Your first module: a greeting and counter shared across monitors.",
+  "permissions": [],
+  "initialState": {
+    "count": "0",
+    "greeting": "Hello, world!",
+    "message": "Ready for your first hello."
+  },
+  "settings": [
+    {
+      "id": "name",
+      "label": "Your name",
+      "defaultValue": "world"
+    }
+  ],
+  "actions": [
+    {
+      "id": "hello",
+      "label": "Say hello"
+    },
+    {
+      "id": "reset",
+      "label": "Reset counter"
+    }
+  ],
+  "activity": "Hello × {count}",
+  "card": [
+    {
+      "id": "greeting",
+      "kind": "heading",
+      "text": "{greeting}"
+    },
+    {
+      "id": "count",
+      "kind": "badge",
+      "text": "{count} hellos"
+    },
+    {
+      "id": "hello",
+      "kind": "button",
+      "text": "Say hello",
+      "action": "hello"
+    }
+  ],
+  "page": [
+    {
+      "id": "greeting",
+      "kind": "heading",
+      "text": "{greeting}"
+    },
+    {
+      "id": "count",
+      "kind": "badge",
+      "text": "{count} hellos"
+    },
+    {
+      "id": "hello",
+      "kind": "button",
+      "text": "Say hello",
+      "action": "hello"
+    },
+    {
+      "id": "message",
+      "kind": "text",
+      "text": "{message}"
+    },
+    {
+      "id": "help",
+      "kind": "text",
+      "text": "Try another monitor: it uses this same module state. Change your name in Settings → Modules."
+    },
+    {
+      "id": "reset",
+      "kind": "button",
+      "text": "Reset counter",
+      "action": "reset"
+    }
+  ],
+  "script": "function reduce(state, action, settings) {\n    let count = Math.max(0, Number(state.count) || 0);\n    if (action === 'hello') count += 1;\n    if (action === 'reset') count = 0;\n    return {\n        count: String(count),\n        greeting: 'Hello, ' + (settings.name || 'world') + '!',\n        message: count === 1 ? 'One hello, shared across your screens.' : count + ' hellos, shared across your screens.'\n    };\n}\n"
+}
