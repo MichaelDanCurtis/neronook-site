@@ -24,7 +24,7 @@ def download(path):
 def listing(id,name,symbol,tint,category,summary,detail,*,kind='native',capabilities=None,dependencies=None,version='0.1.0',artifact=None):
     return dict(id=id,name=name,version=version,summary=summary,detail=detail,category=category,symbol=symbol,tint=tint,kind=kind,
                 publisher=dict(name='NeroNook · Michael Curtis',teamID=TEAM if kind=='native' else None,website=ORIGIN+'guide.html'),
-                minimumHost='0.29.0',minimumOS='14.0.0',architectures=['arm64'],capabilities=capabilities or [],dependencies=dependencies or [],
+                minimumHost='0.28.1',minimumOS='14.0.0',architectures=['arm64'],capabilities=capabilities or [],dependencies=dependencies or [],
                 releaseNotes='Public release qualification is ongoing. This listing describes the current developer preview.' if not artifact else 'First curated library release. Install and update only after reviewing the package.',
                 availability='available' if artifact else 'preview',download=download(artifact) if artifact else None)
 

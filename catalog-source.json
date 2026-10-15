@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "sequence": 2,
-  "publishedAt": "2026-10-15T18:45:03Z",
-  "expiresAt": "2026-11-14T18:45:03Z",
+  "sequence": 3,
+  "publishedAt": "2026-10-15T18:58:32Z",
+  "expiresAt": "2026-11-14T18:58:32Z",
   "entries": [
     {
       "id": "cafe.nero.plugin.voice",
@@ -19,7 +19,7 @@
         "teamID": "2GFVXB3249",
         "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
       },
-      "minimumHost": "0.29.0",
+      "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
       "architectures": [
         "arm64"
@@ -49,7 +49,7 @@
         "teamID": "2GFVXB3249",
         "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
       },
-      "minimumHost": "0.29.0",
+      "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
       "architectures": [
         "arm64"
@@ -78,7 +78,7 @@
         "teamID": "2GFVXB3249",
         "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
       },
-      "minimumHost": "0.29.0",
+      "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
       "architectures": [
         "arm64"
@@ -113,7 +113,7 @@
         "teamID": "2GFVXB3249",
         "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
       },
-      "minimumHost": "0.29.0",
+      "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
       "architectures": [
         "arm64"
@@ -142,7 +142,7 @@
         "teamID": "2GFVXB3249",
         "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
       },
-      "minimumHost": "0.29.0",
+      "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
       "architectures": [
         "arm64"
@@ -177,7 +177,7 @@
         "teamID": "2GFVXB3249",
         "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
       },
-      "minimumHost": "0.29.0",
+      "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
       "architectures": [
         "arm64"
@@ -213,7 +213,7 @@
         "teamID": "2GFVXB3249",
         "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
       },
-      "minimumHost": "0.29.0",
+      "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
       "architectures": [
         "arm64"
@@ -242,7 +242,7 @@
         "teamID": "2GFVXB3249",
         "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
       },
-      "minimumHost": "0.29.0",
+      "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
       "architectures": [
         "arm64"
@@ -272,7 +272,7 @@
         "teamID": "2GFVXB3249",
         "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
       },
-      "minimumHost": "0.29.0",
+      "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
       "architectures": [
         "arm64"
@@ -307,7 +307,7 @@
         "teamID": "2GFVXB3249",
         "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
       },
-      "minimumHost": "0.29.0",
+      "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
       "architectures": [
         "arm64"
@@ -335,7 +335,7 @@
         "teamID": "2GFVXB3249",
         "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
       },
-      "minimumHost": "0.29.0",
+      "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
       "architectures": [
         "arm64"
@@ -364,7 +364,7 @@
         "teamID": "2GFVXB3249",
         "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
       },
-      "minimumHost": "0.29.0",
+      "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
       "architectures": [
         "arm64"
@@ -397,7 +397,7 @@
         "teamID": null,
         "website": "https://neronook.mdcurtis.chatgpt.site/guide.html"
       },
-      "minimumHost": "0.29.0",
+      "minimumHost": "0.28.1",
       "minimumOS": "14.0.0",
       "architectures": [
         "arm64"
